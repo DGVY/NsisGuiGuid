@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NsisGuiGuidDlgClass</class>
+ <widget class="QDialog" name="NsisGuiGuidDlgClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NsisGuiGuidDlg</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="GBTypeSelect">
+     <property name="title">
+      <string>类型选择</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="GBBaseCfg">
+     <property name="title">
+      <string>基础配置</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="GBAdvancedCfg">
+     <property name="title">
+      <string>高级配置</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="GBCompile">
+     <property name="title">
+      <string>压缩编译</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="NsisGuiGuidDlg.qrc"/>
+ </resources>
+ <connections/>
+</ui>
