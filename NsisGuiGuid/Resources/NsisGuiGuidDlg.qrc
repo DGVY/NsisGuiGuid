@@ -1,4 +1,8 @@
 <RCC>
-    <qresource prefix="NsisGuiGuidDlg">
+    <qresource prefix="/NsisGuiGuidDlg">
+        <file>Program.ico</file>
+        <file>Qt.ico</file>
+        <file>install.ico</file>
+        <file>update.ico</file>
     </qresource>
 </RCC>

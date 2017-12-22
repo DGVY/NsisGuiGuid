@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Setup>
+    <!--公司-->
+    <Company>
+        <def>!define COMPANY_NAME </def>
+        <value>"HZLH"</value>
+    </Company>
+    
+    <!--版本-->
+    <Version>
+        <def>!define VERSION </def>
+        <value>"v1.0.0"</value>
+    </Version>
+    
+    <!--项目-->
+    <Project>
+        <def>!define PROJECT_NAME </def>
+        <value>""</value>
+    </Project>
+    
+    <!--语言-->
+    <language>
+        <def>!define SET_LANGUAGE </def>
+        <value>"SimpChinese"</value>
+    </language>
+
+    <!--快捷方式-->
+    <Shortcut>
+        <def>!define SHORTCUT_PROGRAM_NAME</def>
+        <value>""</value>
+    </Shortcut>
+    
+    <!--输出文件路径-->
+    <OutputPath>
+        <def>!define OUTPUT_FILE_NAME </def>
+        <value>""</value>
+    </OutputPath>
+    
+    <!--默认安装路径-->
+    <SetupPath>
+        <def>!define SETUP_PATH </def>
+        <value>""</value>
+    </SetupPath>
+    
+    <!--ICO路径-->
+    <InICOPath>
+        <def>!define IN_ICON_PATH </def>
+        <value>"${NSISDIR}\Contrib\Graphics\Icons\modern-install.ico"</value>
+    </InICOPath>
+    <UnICOPath>
+        <def>!define UN_ICON_PATH </def>
+        <value>"${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"</value>
+    </UnICOPath>
+    
+    <!--安装界面头部图片路径-->
+    <InHeadBmpPath>
+        <def>!define IN_HEAD_BMP_PATH </def>
+        <value>"${NSISDIR}\Contrib\Graphics\Header\nsis3-branding.bmp"</value>
+    </InHeadBmpPath>
+    <UnHeadBmpPath>
+        <def>!define UN_HEAD_BMP_PATH </def>
+        <value>"${NSISDIR}\Contrib\Graphics\Header\nsis3-branding.bmp"</value>
+    </UnHeadBmpPath>
+    
+    <!--注册表项-->
+    
+</Setup>
+

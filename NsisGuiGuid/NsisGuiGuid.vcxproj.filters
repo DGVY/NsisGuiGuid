@@ -28,11 +28,15 @@
       <Extensions>moc;h;cpp</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="Resources\NsisGuiGuid.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
+    <Filter Include="Source Files\Widget">
+      <UniqueIdentifier>{0c2c37af-c0b1-4654-9bd9-e6522f6410c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widget">
+      <UniqueIdentifier>{15780718-d341-45fe-83e3-09077d166580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config Files">
+      <UniqueIdentifier>{8ed5ac47-8018-4da5-9c21-32f016ae9adf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Code\main.cpp">
@@ -53,6 +57,63 @@
     <ClCompile Include="GeneratedFiles\qrc_NsisGuiGuidDlg.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WgtCompile.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WgtCompile.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WgtAdvancedCfg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WgtAdvancedCfg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WgtBaseCfg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WgtBaseCfg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WgtTypeSelect.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WgtTypeSelect.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\FileSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\WgtAdvancedCfg.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\WgtBaseCfg.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\WgtCompile.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\WgtTypeSelect.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WgtSettingsS.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WgtSettingsS.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Widget\WgtSettingsS.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WgtBrowse.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WgtBrowse.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Widget\WgtBrowse.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Code\NsisGuiGuidDlg.h">
@@ -64,6 +125,27 @@
     <CustomBuild Include="Resources\NsisGuiGuidDlg.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="Code\WgtTypeSelect.h">
+      <Filter>Header Files\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Code\WgtCompile.h">
+      <Filter>Header Files\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Code\WgtBaseCfg.h">
+      <Filter>Header Files\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Code\WgtAdvancedCfg.h">
+      <Filter>Header Files\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Code\Widget\WgtSettingsS.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Code\Widget\WgtSettingsS.h">
+      <Filter>Header Files\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Code\Widget\WgtBrowse.h">
+      <Filter>Header Files\Widget</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\stdafx.h">
@@ -72,5 +154,16 @@
     <ClInclude Include="GeneratedFiles\ui_NsisGuiGuidDlg.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+    <ClInclude Include="Code\FileSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_WgtSettingsS.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="ConfigFiles\SetupCfg.xml">
+      <Filter>Config Files</Filter>
+    </Xml>
   </ItemGroup>
 </Project>
