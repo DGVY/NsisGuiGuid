@@ -4,6 +4,7 @@
 #include "ui_WgtSettingsS.h"
 
 class WgtBrowse;
+class WgtRegister;
 
 class WgtSettingsS : public QWidget, public Ui::WgtSettingsS
 {
@@ -29,6 +30,8 @@ private:
     WgtBrowse               *m_InIconPath;
     WgtBrowse               *m_UnIconPath;
     WgtBrowse               *m_HeadBmpPath;
+
+    WgtRegister             *m_Register;
 
     enum Language           m_LanguageType;
     bool                    m_ProjectState;

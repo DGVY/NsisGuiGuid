@@ -81,6 +81,8 @@ public:
 
         SettingsWidget = new QTabWidget(NsisGuiGuidDlgClass);
         SettingsWidget->setObjectName(QStringLiteral("SettingsWidget"));
+        SettingsWidget->setAutoFillBackground(false);
+        SettingsWidget->setStyleSheet(QStringLiteral(""));
 
         gridLayout->addWidget(SettingsWidget, 0, 0, 3, 1);
 

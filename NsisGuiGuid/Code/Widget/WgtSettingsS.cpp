@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "WgtSettingsS.h"
 #include "WgtBrowse.h"
+#include "WgtRegister.h"
 
 WgtSettingsS::WgtSettingsS(QWidget *parent)
     : QWidget(parent)
@@ -31,7 +32,7 @@ void WgtSettingsS::slotProjectState(bool b)
     if (b)
     {
         // 使能项目设置框
-        ProjectEdit->setEnabled(false);
+        ProjectEdit->setEnabled(true);
     }
     else
     {
@@ -85,12 +86,15 @@ void WgtSettingsS::InitLayout(void)
     m_UnIconPath   = new WgtBrowse(WgtBrowse::mIco,    WgtBrowse::mOpen, this);
     m_HeadBmpPath  = new WgtBrowse(WgtBrowse::mBmp,    WgtBrowse::mOpen, this);
 
+    m_Register = new WgtRegister(this);
+
     MainLayout->addWidget(m_SourcePath, 5, 2, 1, 1);
     MainLayout->addWidget(m_ShortcutPath, 6, 2, 1, 1);
     MainLayout->addWidget(m_OutFile, 7, 2, 1, 1);
     MainLayout->addWidget(m_InIconPath, 10, 2, 1, 1);
     MainLayout->addWidget(m_UnIconPath, 11, 2, 1, 1);
     MainLayout->addWidget(m_HeadBmpPath, 12, 2, 1, 1);
+    MainLayout->addWidget(m_Register, 13, 2, 1, 1);
 }
 
 /************************************************************************\

@@ -114,6 +114,15 @@
     <ClCompile Include="Code\Widget\WgtBrowse.cpp">
       <Filter>Source Files\Widget</Filter>
     </ClCompile>
+    <ClCompile Include="WgtRegister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WgtRegister.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WgtRegister.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Code\NsisGuiGuidDlg.h">
@@ -145,6 +154,9 @@
     </CustomBuild>
     <CustomBuild Include="Code\Widget\WgtBrowse.h">
       <Filter>Header Files\Widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WgtRegister.h">
+      <Filter>Header Files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

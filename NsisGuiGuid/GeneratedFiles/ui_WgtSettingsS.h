@@ -151,6 +151,7 @@ public:
         horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
         ProjectCB = new QCheckBox(WgtSettingsS);
         ProjectCB->setObjectName(QStringLiteral("ProjectCB"));
+        ProjectCB->setChecked(true);
 
         horizontalLayout_2->addWidget(ProjectCB);
 

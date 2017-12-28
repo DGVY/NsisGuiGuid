@@ -9,7 +9,7 @@ class WgtBrowse : public QWidget
 public:
     // 文件类型
     enum FilterType {
-        mNull = 1,
+        mFNull = 1,
         mFloder,
         mExe,
         mIco,
@@ -18,7 +18,7 @@ public:
 
     // 保存or打开
     enum SaveOpenType {
-        mNull = 1,
+        mSNull = 1,
         mSave,
         mOpen
     };

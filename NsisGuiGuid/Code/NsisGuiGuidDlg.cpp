@@ -8,7 +8,7 @@ NsisGuiGuidDlg::NsisGuiGuidDlg(QWidget *parent)
 {
     ui.setupUi(this);
     this->setWindowTitle("NSIS 安装包&更新包 快速制作向导");
-    this->setWindowIcon(QIcon("F:\\QT\\NsisGuiGuid\\NsisGuiGuid\\Resources\\install.ico"));
+    this->setWindowIcon(QIcon(":/NsisGuiGuidDlg/Program.ico"));
 
     InitLayout();
 
@@ -37,4 +37,6 @@ void NsisGuiGuidDlg::InitLayout(void)
     QIcon iconU(":/NsisGuiGuidDlg/update.ico");
     ui.SettingsWidget->addTab(new QWidget(this), iconU, "更新包");
 
+    m_SettingsS->setPalette(QWidget::palette().color(this->backgroundRole()));
+    m_SettingsS->setAutoFillBackground(true);
 }

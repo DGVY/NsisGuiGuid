@@ -49,7 +49,7 @@ void WgtBrowse::slotOpenBrowse(void)
 {
     switch (m_fType)
     {
-    case WgtBrowse::mNull:
+    case WgtBrowse::mFNull:
         break;
     case WgtBrowse::mFloder:
     {
@@ -91,7 +91,7 @@ void WgtBrowse::slotOpenBrowse(void)
     }
 
     // 路径或类型为空，不符合条件，不显示
-    if (m_Path->isEmpty() || m_fType == mNull)
+    if (m_Path->isEmpty() || m_fType == mFNull)
     {
         return;
     }
@@ -134,7 +134,7 @@ bool WgtBrowse::IsPathValid(QString const & path)
     // 判断路径格式是否正确
     switch (m_fType)
     {
-    case WgtBrowse::mNull:
+    case WgtBrowse::mFNull:
         break;
     case WgtBrowse::mFloder:
     {
@@ -172,7 +172,7 @@ void WgtBrowse::setFilterType(enum FilterType const& type)
 
     switch (type)
     {
-    case WgtBrowse::mNull:
+    case WgtBrowse::mFNull:
         *m_FilterType = "";
         break;
     case WgtBrowse::mFloder:
