@@ -30,13 +30,6 @@ include_directories(${Qt5_INCLUDE_DIRECTORIES})
 include_directories(/usr/include)
 include_directories(./NsisGuiGuid/Source)
 
-##查找当前文件夹中的所有源代码文件，也可以通过Set命令将所有文件设置为一个变量
-#FILE(GLOB SRC_FILES "./NsisGuiGuid/Code/*.cpp" "./NsisGuiGuid/Code/Widget/*.cpp")
-##同理，查找当前文件夹中所有的头文件
-#FILE(GLOB HEAD_FILES "./NsisGuiGuid/Code/*.h" "./NsisGuiGuid/Code/Widget/*.h")
-##同理，查找当前文件夹中所有的ui文件
-#FILE(GLOB UI_FILES "./NsisGuiGuid/Code/*.ui" "./NsisGuiGuid/Code/Widget/*.ui" "./NsisGuiGuid/FormFiles/*.ui")
-
 # Add Cpp File
 set(SRC_FILES
         ./NsisGuiGuid/Source/main.cpp
@@ -47,6 +40,7 @@ set(SRC_FILES
         ./NsisGuiGuid/Source/FormFiles/WgtAdvancedCfg.cpp
         ./NsisGuiGuid/Source/FormFiles/WgtBrowse.cpp
         ./NsisGuiGuid/Source/FormFiles/WgtRegister.cpp
+        ./NsisGuiGuid/Source/FormFiles/WgtCompile.cpp
         )
 
 set(HEAD_FILES
@@ -57,6 +51,7 @@ set(HEAD_FILES
         ./NsisGuiGuid/Source/FormFiles/WgtAdvancedCfg.h
         ./NsisGuiGuid/Source/FormFiles/WgtBrowse.h
         ./NsisGuiGuid/Source/FormFiles/WgtRegister.h
+        ./NsisGuiGuid/Source/FormFiles/WgtCompile.h
         )
 
 set(UI_FILES

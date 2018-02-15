@@ -16,12 +16,12 @@ void WgtCompile::InitLayout(void)
 {
     m_Layout = new QGridLayout(m_Parent);
 
-    m_StartCompile = new QPushButton("¿ªÊ¼±àÒë");
+    m_StartCompile = new QPushButton("å¼€å§‹ç¼–è¯‘");
     m_Layout->addWidget(m_StartCompile, 0, 0, 1, 1);
 
     m_Output = new QTextBrowser(m_Parent);
     m_Layout->addWidget(m_Output, 1, 0, 1, 2);
 
-    m_State = new QLabel("×¼±¸±àÒë");
+    m_State = new QLabel("å‡†å¤‡ç¼–è¯‘");
     m_Layout->addWidget(m_State, 0, 1, 1, 1);
 }
