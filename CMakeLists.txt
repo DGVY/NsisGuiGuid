@@ -37,7 +37,6 @@ set(SRC_FILES
 #        ./NsisGuiGuid/Source/FileSetup.cpp
         ./NsisGuiGuid/Source/FormFiles/NsisGuiGuidDlg.cpp
         ./NsisGuiGuid/Source/FormFiles/WgtSettingsS.cpp
-        ./NsisGuiGuid/Source/FormFiles/WgtAdvancedCfg.cpp
         ./NsisGuiGuid/Source/FormFiles/WgtBrowse.cpp
         ./NsisGuiGuid/Source/FormFiles/WgtRegister.cpp
         ./NsisGuiGuid/Source/FormFiles/WgtCompile.cpp
@@ -48,7 +47,6 @@ set(HEAD_FILES
 #        ./NsisGuiGuid/Source/FileSetup.h
         ./NsisGuiGuid/Source/FormFiles/NsisGuiGuidDlg.h
         ./NsisGuiGuid/Source/FormFiles/WgtSettingsS.h
-        ./NsisGuiGuid/Source/FormFiles/WgtAdvancedCfg.h
         ./NsisGuiGuid/Source/FormFiles/WgtBrowse.h
         ./NsisGuiGuid/Source/FormFiles/WgtRegister.h
         ./NsisGuiGuid/Source/FormFiles/WgtCompile.h

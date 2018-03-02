@@ -6,6 +6,7 @@
 class WgtSettingsS;
 //class WgtSettingsU;
 class FileSetup;
+class WgtCompile;
 
 class NsisGuiGuidDlg : public QDialog
 {
@@ -18,6 +19,8 @@ private:
     Ui::NsisGuiGuidDlgClass         ui;
 
     WgtSettingsS                    *m_SettingsS;
+
+    WgtCompile                      *m_Compile;
 
     // 安装包NSIS文件制作
     FileSetup                       *m_FileSetup;

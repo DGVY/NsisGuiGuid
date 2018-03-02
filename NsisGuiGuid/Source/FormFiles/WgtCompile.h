@@ -1,6 +1,7 @@
 #pragma once
 
-#include <QObject>
+//#include <QObject>
+class QObject;
 
 class WgtCompile : public QObject
 {
@@ -17,9 +18,13 @@ private:
 
     QPushButton                 *m_StartCompile;
 
-    QTextBrowser                *m_Output;
+    QPushButton                 *m_StopCompile;
 
-    QLabel                      *m_State;
+    QIcon                       *m_StateIcon;
+
+//    QTextBrowser                *m_Output;
+
+    QLabel                      *m_StateLabel;
 
 private:
     void InitLayout(void);

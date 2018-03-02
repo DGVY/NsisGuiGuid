@@ -6,34 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>624</width>
-    <height>837</height>
+    <width>757</width>
+    <height>481</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>NsisGuiGuidDlg</string>
   </property>
-  <layout class="QGridLayout" name="gridLayout" columnstretch="3,2">
-   <item row="3" column="0" colspan="2">
-    <widget class="QGroupBox" name="GBCompile">
-     <property name="title">
-      <string>压缩编译</string>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="1" rowspan="2">
-    <widget class="QGroupBox" name="Brief">
-     <property name="title">
-      <string>说明</string>
-     </property>
-     <layout class="QHBoxLayout" name="horizontalLayout">
-      <item>
-       <widget class="QTextBrowser" name="textBrowser"/>
-      </item>
-     </layout>
-    </widget>
-   </item>
-   <item row="0" column="1">
+  <layout class="QGridLayout" name="gridLayout" columnstretch="2,1,1">
+   <item row="0" column="2">
     <widget class="QGroupBox" name="Author">
      <property name="title">
       <string>作者信息</string>
@@ -63,6 +44,25 @@
      <property name="styleSheet">
       <string notr="true"/>
      </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="GBCompile">
+     <property name="title">
+      <string>压缩编译</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" rowspan="2" colspan="2">
+    <widget class="QGroupBox" name="Brief">
+     <property name="title">
+      <string>说明</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QTextBrowser" name="textBrowser"/>
+      </item>
+     </layout>
     </widget>
    </item>
   </layout>

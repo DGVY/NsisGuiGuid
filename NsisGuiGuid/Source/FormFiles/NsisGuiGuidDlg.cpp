@@ -1,6 +1,7 @@
 ﻿#include "stdafx.h"
 #include "NsisGuiGuidDlg.h"
 #include "WgtSettingsS.h"
+#include "WgtCompile.h"
 //#include "FileSetup.h"
 
 NsisGuiGuidDlg::NsisGuiGuidDlg(QWidget *parent)
@@ -39,4 +40,7 @@ void NsisGuiGuidDlg::InitLayout(void)
 
     m_SettingsS->setPalette(QWidget::palette().color(this->backgroundRole()));
     m_SettingsS->setAutoFillBackground(true);
+
+    m_Compile = new WgtCompile(ui.GBCompile);
+
 }
