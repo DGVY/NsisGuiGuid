@@ -45,12 +45,6 @@
     <ClCompile Include="GeneratedFiles\Release\moc_NsisGuiGuidDlg.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_WgtAdvancedCfg.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_WgtAdvancedCfg.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_WgtBrowse.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
@@ -99,9 +93,6 @@
     <ClCompile Include="Source\FormFiles\WgtRegister.cpp">
       <Filter>Source Files\Widget</Filter>
     </ClCompile>
-    <ClCompile Include="Source\FormFiles\WgtAdvancedCfg.cpp">
-      <Filter>Source Files\Widget</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\qrc_NsisGuiGuidDlg.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
@@ -114,9 +105,6 @@
       <Filter>Form Files</Filter>
     </CustomBuild>
     <CustomBuild Include="Source\FormFiles\WgtSettingsS.h">
-      <Filter>Header Files\Widget</Filter>
-    </CustomBuild>
-    <CustomBuild Include="Source\FormFiles\WgtAdvancedCfg.h">
       <Filter>Header Files\Widget</Filter>
     </CustomBuild>
     <CustomBuild Include="Source\FormFiles\WgtBrowse.h">
