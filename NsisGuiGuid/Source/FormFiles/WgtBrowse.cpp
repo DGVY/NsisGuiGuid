@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "WgtBrowse.h"
 
 WgtBrowse::WgtBrowse(QWidget *parent)

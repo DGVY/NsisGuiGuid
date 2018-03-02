@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "WgtRegister.h"
 
 WgtRegister::WgtRegister(QWidget *parent)

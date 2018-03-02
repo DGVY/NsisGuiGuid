@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "WgtSettingsS.h"
 #include "WgtBrowse.h"
 #include "WgtRegister.h"
